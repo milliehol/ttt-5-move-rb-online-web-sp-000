@@ -17,6 +17,6 @@ def move(board, input3, value = "X")
 board[input3] = value
 end
 
-def greeting
+def greeting()
 puts = "Welcome to Tic Tac Toe!"
 end
