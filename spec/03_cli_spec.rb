@@ -16,7 +16,7 @@ describe './bin/move executing a CLI Application' do
       allow(self).to receive(:gets).and_return("1")
 
 
-    expect(stdout).to receive(:puts).with("Welcome to Tic Tac Toe!"), "Make sure `bin/move` has code that can output 'Welcome to Tic Tac Toe!' exactly."
+    expect($stdout).to receive(:puts).with("Welcome to Tic Tac Toe!"), "Make sure `bin/move` has code that can output 'Welcome to Tic Tac Toe!' exactly."
 
     run_file("./bin/move")
   end
