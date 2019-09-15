@@ -19,4 +19,5 @@ end
 
 def greeting
 puts "Welcome to Tic Tac Toe!"
+puts "Please choose where you would like to move"
 end
