@@ -10,9 +10,9 @@ end
 
 def input_to_index(input)
   input2 = "input".to_i
-input = (input2 - 1)
+input3 = (input2 - 1)
 end
 
-def move(board, input, value = "X")
-board[input] = value
+def move(board, input3, value = "X")
+board[input3] = value
 end
